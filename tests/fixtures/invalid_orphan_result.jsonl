@@ -1,0 +1,1 @@
+{"schema_version":1,"event_id":"r1","trace_id":"t1","timestamp":"2026-01-01T10:00:00Z","type":"tool_result","call_id":"missing-call","status":"error"}

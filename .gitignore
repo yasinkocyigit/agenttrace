@@ -153,6 +153,7 @@ activemq-data/
 .env
 .envrc
 .venv
+.venv/
 env/
 venv/
 ENV/
@@ -218,3 +219,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local, potentially sensitive trace recordings. Test fixtures remain trackable.
+/traces/
+*.private.jsonl
+*.local.jsonl
+
+
+# Personal learning exercises
+/learning/
+
+# Local documentation
+*.pdf

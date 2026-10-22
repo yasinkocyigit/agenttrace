@@ -1,0 +1,5 @@
+{"schema_version":1,"event_id":"s1","trace_id":"t1","timestamp":"2026-01-01T10:00:00Z","type":"tool_schema","tool_name":"lookup","parameters":{"type":"object","properties":{"id":{"type":"string"}},"required":["id"],"additionalProperties":false}}
+{"schema_version":1,"event_id":"c1","trace_id":"t1","timestamp":"2026-01-01T10:00:01Z","type":"tool_call","call_id":"call-1","tool_name":"lookup","arguments":{"id":42}}
+{"schema_version":1,"event_id":"r1","trace_id":"t1","timestamp":"2026-01-01T10:00:02Z","type":"tool_result","call_id":"call-1","status":"error","error_message":"invalid ID"}
+{"schema_version":1,"event_id":"c2","trace_id":"t1","timestamp":"2026-01-01T10:00:03Z","type":"tool_call","call_id":"call-2","tool_name":"lookup","arguments":{"id":42}}
+{"schema_version":1,"event_id":"r2","trace_id":"t1","timestamp":"2026-01-01T10:00:04Z","type":"tool_result","call_id":"call-2","status":"timeout"}
